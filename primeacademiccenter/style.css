@@ -390,28 +390,6 @@ main {
   font-weight: 800;
 }
 
-.center-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-}
-
-.center-grid figure {
-  min-height: 285px;
-  margin: 0;
-  overflow: hidden;
-  border-radius: 8px;
-  border: 1px solid var(--line);
-  background: #ffffff;
-  box-shadow: 0 14px 30px rgba(9, 29, 43, 0.1);
-}
-
-.center-grid img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .site-footer {
   display: flex;
   justify-content: space-between;
@@ -480,8 +458,7 @@ main {
 @media (max-width: 900px) {
   .hero,
   .featured-program,
-  .program-grid,
-  .center-grid {
+  .program-grid {
     grid-template-columns: 1fr;
   }
 

@@ -15,7 +15,7 @@ if (menuToggle && navLinks) {
   });
 }
 
-const revealItems = document.querySelectorAll(".section, .program-card, .center-grid figure");
+const revealItems = document.querySelectorAll(".section, .program-card");
 
 if ("IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver((entries) => {
